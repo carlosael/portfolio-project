@@ -1,0 +1,30 @@
+
+
+.profilepic-sobre {
+    width: 1015px;
+    height: 500px;
+    margin-bottom: 80px;
+}
+.profilepic img {
+    width: 540px;
+    height: 500px;
+}
+
+
+
+.about-me {
+    width: 350px;
+}
+
+.about-me h2 {
+    margin-top: 103px;
+}
+
+.about-me button {
+    padding: 17px 38px;
+}
+
+.about-me-button {
+    display: flex;
+    justify-content: flex-start;
+}

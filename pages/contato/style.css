@@ -1,0 +1,122 @@
+.contato-final {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 354px;
+
+    border-top: 1px solid #33323d59;
+    border-bottom: 1px solid #33323d59;
+
+    margin-bottom: 47px;
+}
+
+.contato-h2 {
+    margin-top: 42px;
+    display: flex;
+    width: 475px;
+}
+
+.entre-em-contato {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+}
+
+.entre-em-contato p {
+    margin-bottom: 54px;
+}
+
+    
+.entre-em-contato ul {
+        display: flex;
+        align-items: baseline;
+        list-style-type: none;
+}
+    
+.entre-em-contato li{
+    margin-right: 15px;
+}
+
+.contato-texto {
+    display: flex;
+    width: 1110px;
+    height: 426px;
+
+}
+
+.contato-texto-h2 {
+    display: flex;
+    width: 475px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+input {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #e8e7ee;
+    mix-blend-mode: normal;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+input:focus {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+textarea:focus{
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.inputs button:hover{
+    background: #5FB4A2;
+    
+}
+
+
+.name {
+    width: 635px;
+    height: 48px;
+}
+
+
+textarea {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #e8e7ee;
+    mix-blend-mode: normal;
+    padding: 10px;
+    height: 100px;
+}
+
+button {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #203A4C;
+    color: #FFF;
+    width: 200px;
+    padding: 17px 50px;
+    margin-bottom: 109px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+    color: #33323D;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    color: #33323D;
+}
+
+p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+
+}
+
+h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+    color: #33323D;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+
+HEADER
+
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+    margin-top: 64px;
+    width:1111px;
+    height: 32px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+    
+}
+
+header nav ul li {
+    margin-left: 43px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+.home {
+    color:#5FB4A2;
+}
+
+.home2 {
+    color: #33323D;
+}
+
+/*
+
+ABOUT ME SECTION
+
+*/
+
+.profilepic-sobre {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1110px;
+    height: 600px;
+
+    margin-bottom: 150px;
+}
+
+.profilepic img {
+    width: 540px;
+    height: 600px;
+}
+
+.about-me {
+    border-top: 1px solid #33323d59;
+    border-bottom: 1px solid #33323d59;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 430px;
+}
+
+.about-me h2 {
+    margin-top: 51px;
+}
+
+.about-me-button {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 17px 28px;
+    border: 1px solid #33323D;
+}
+
+.about-me button:hover {
+    background: #33323D;
+    color: #FFF;
+}
+
+
+.about-me h2 {
+    margin-bottom: 28px;
+}
+
+.about-me p {
+    margin-bottom: 24px;
+}
+
+.about-me a {
+    color: #33323D;
+    text-decoration: none;
+}
+
+/*
+
+CONTACT SECTION
+
+*/
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1110px;
+    height: 84px;
+    margin-bottom: 150px;
+}
+
+.contato-h2 {
+    display: flex;
+    width: 367px;
+}
+
+.contato-button button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    padding: 17px 50px;
+    border: 1px solid #33323D;
+}
+
+.contato-button button:hover {
+    background: #33323D;
+    color: #FFF;
+}
+
+.contato-button a {
+    color: #33323D;
+    text-decoration: none;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #33323D;
+    width: 1440px;
+    height: 80px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 61px;
+}
+
+.logo-nav {
+    display: flex;
+    width: 418px;
+    align-items: center;
+}
+
+.logo-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+.logo-nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+.logo-nav ul li {
+    margin-left: 43px;
+}
+
+.ul-social ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+.ul-social li {
+    margin-left: 15px;
+}
+
+
+
+

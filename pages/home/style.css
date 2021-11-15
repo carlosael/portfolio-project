@@ -1,0 +1,83 @@
+/*
+
+HERO SECTION
+
+*/
+
+.hero {
+    background: url("../../assets/home/image-homepage-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1110px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 149px;
+}
+
+.hero-h1 {
+    background-color: #FAFAFA;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 445px;
+    height: 357px;
+    
+}
+
+.ola {
+    padding: 0 25px;
+    margin-bottom: 53px;
+}
+
+.hero-button {
+    display: flex;
+    width: 445px;
+    height: 48px;
+}
+
+.hero-button button {
+    all:unset;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #203A4C;
+    cursor: pointer;
+}
+
+.img-button button {
+    padding: 16px 18px;
+    width: 48px;
+    height: 48px;
+    background-color: #1d3444;
+    cursor: pointer;
+}
+
+.sobre-mim-button button {
+    padding: 17px 30px;
+    width: 152px;
+    height: 48px;
+}
+
+.hero-button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.img-button button:hover {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.sobre-mim-button button:hover {
+    background: #5FB4A2;
+}
+
+
+
+
+
+

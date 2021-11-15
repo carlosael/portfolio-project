@@ -1,0 +1,111 @@
+/*
+
+PROJETOS
+
+*/
+
+.hero {
+    background: url("../../assets/portfolio/fylo/image-fylo-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1110px;
+    height: 500px;
+    display: flex;
+    margin-bottom: 115px;
+}
+
+.profilepic-sobre {
+margin-bottom: 64px;
+}
+
+.about-me-button {
+display: flex;
+justify-content: flex-start;
+}
+
+.about-me-button button {
+padding: 17px 61px;
+}
+
+.projeto {
+width: 635px;
+}
+
+.projeto img {
+width: 635px;
+height: 400px;
+margin-bottom: 32px;
+}
+
+.projeto h3 {
+font-family: 'Ibarra Real Nova', serif;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: -0.29px;
+color: #33323D;
+margin-bottom: 28px;
+}
+
+.projeto p {
+font-family: 'Public Sans', sans-serif;
+font-size: 15px;
+line-height: 30px;
+color:#33323D;
+margin-bottom: 40px;
+}
+
+.p-verde {
+color:#5FB4A2;
+}
+
+.profilepic-sobre {
+display: flex;
+justify-content: space-between;
+width: 1110px;
+height: 1192px;
+}
+
+.about-me {
+height: 500px;
+}
+
+.portofolio-nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+width: 1110px;
+height: 132px;
+margin-bottom: 115px;
+
+border-top: 1px solid #33323d59;
+border-bottom: 1px solid #33323d59;
+}
+
+.portofolio-nav h3 {
+margin-right: 32px;
+}
+
+.portofolio-nav p {
+color: #33323D;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+
+.projeto-anterior {
+display: flex;
+}
+
+
+.projeto-anterior p {
+    margin-right: 32px;
+}
+
+.projeto-seta {
+display: flex;
+align-items: center;
+margin-right: 32px;
+}
